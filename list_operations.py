@@ -124,7 +124,7 @@ def middle(input_list):
 
     """
 
-    return input_list[2:len(input_list)-2]
+    return input_list[2:-2]
 
 
 
@@ -253,8 +253,8 @@ def delete_middle(input_list):
 # # Please ask for a code review from an instructor/TA before proceeding.
 
 
-# if __name__ == "__main__":
-#     import doctest
-#     result = doctest.testmod()
-#     if result.failed == 0:
-#         print "ALL TESTS PASSED"
+if __name__ == "__main__":
+    import doctest
+    result = doctest.testmod()
+    if result.failed == 0:
+        print "ALL TESTS PASSED"
